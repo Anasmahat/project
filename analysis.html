@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>                        
+    <div class="sec">
+        <div class="leftbar">
+            
+            <h1>EL pisto <br>solutions</h1>
+            <div class="sidebarOption">
+                <span class="dashSection">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <a class="links" href="dashboard.html">Dashboard</a>
+                </span>
+            </div>
+            <div class="sidebarOption">
+                <span class="dashSection">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <a class="links" href="products.html" >Products</a>
+                </span>
+            </div>
+            <div class="sidebarOption" style="border-bottom: 1px solid rgb(119, 101, 101); width: 80%;">
+                <span class="dashSection">
+                    <i class="fas fa-flask"></i>
+                    <a class="links" href="materials.html">Materials</a>
+                </span>
+            </div>
+            <div class="sidebarOption">
+                <span class="dashSection">
+                    <i class="fa-solid fa-address-card"></i>
+                    <a class="links" href="creditors.html">Creditors</a>
+                </span>
+            </div>
+            <div class="sidebarOption" style="border-bottom: 1px solid rgb(119, 101, 101); width: 80%;">
+                <span class="dashSection">
+                    <i class="fa-solid fa-face-smile"></i>
+                    <a class="links" href="suppliers.html">Suppliers</a>
+                </span>
+            </div>
+            <div class="sidebarOption">
+                <span class="dashSection">
+                    <i class="fas fa-chart-line"></i>
+                    <a class="links" href="expenses.html">Expenses</a>
+                </span>
+            </div>
+            <div class="sidebarOption">
+                <span class="dashSection">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <a class="links" href="analysis.html">Analysis</a>
+                </span>
+            </div>
+            <div class="close">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <button id="logout">Log Out</button>
+            </div>
+        
+            
+        </div>
+        <div class="contentSide">
+            <section class="nev">
+                <h1>Analysis</h1>
+                <div class="profileCont">
+                    <div class="profilePic">
+
+                    </div>
+                    <h6 id="username">Username</h6>
+                </div>
+            </section>
+            <div class="content">
+
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/analysis.js"></script>
+</body>
+</html>
